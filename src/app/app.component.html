@@ -1,20 +1,157 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+ <div class="container-fluid">
+  <div class="row">
+           <div class="col-lg-12">              
+               <ul id="myTab" class="nav nav-tabs">
+                  <li class="active">
+                     <a href="#home" data-toggle="tab">First Tab</a>
+                  </li>
+                  <li><a href="#a" data-toggle="tab">Second Tab</a></li>
+
+                  <li><a href="#b" data-toggle="tab">Third Tab</a></li>
+               </ul>
+               <div id="myTabContent" class="tab-content">
+
+                
+                  <div class="tab-pane fade in active" id="home">
+                    
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+             <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </h4>
+  
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.le VHS.</div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+             <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </h4>
+  
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+             <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </h4>
+  
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. </div>
+        </div>
+    </div>
+  </div>
+<!--accordion end-->
+                  </div>
+                  <div class="tab-pane fade" id="a">
+                      <div class="panel-group" id="Aaccordion" role="tablist" aria-multiselectable="true">
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="aHeadingOne">
+                                   <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#aAccordion" href="#aCollapseOne" aria-expanded="true" aria-controls="aCollapseOne">
+                                Collapsible Group Item #1
+                              </a>
+                            </h4>
+                        
+                              </div>
+                              <div id="aCollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="aHeadingOne">
+                                  <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.le VHS.</div>
+                              </div>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="aHeadingTwo">
+                                   <h4 class="panel-title">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#aAccordion" href="#aCollapseTwo" aria-expanded="false" aria-controls="aCollapseTwo">
+                                Collapsible Group Item #2
+                              </a>
+                            </h4>
+                        
+                              </div>
+                              <div id="aCollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="aHeadingTwo">
+                                  <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</div>
+                              </div>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="aHeadingThree">
+                                   <h4 class="panel-title">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#aCollapseThree" aria-expanded="false" aria-controls="aCollapseThree">
+                                Collapsible Group Item #3
+                              </a>
+                            </h4>
+                        
+                              </div>
+                              <div id="aCollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="aHeadingThree">
+                                  <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. </div>
+                              </div>
+                          </div>
+                        </div>
+<!--accordion end-->
+                  </div>
+                  <div class="tab-pane fade" id="b">
+                      <div class="panel-group" id="bAccordion" role="tablist" aria-multiselectable="true">
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="bHeadingOne">
+                                   <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#bAccordion" href="#bCollapseOne" aria-expanded="true" aria-controls="bCollapseOne">
+                                Collapsible Group Item #1
+                              </a>
+                            </h4>
+                        
+                              </div>
+                              <div id="bCollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="bHeadingOne">
+                                  <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.le VHS.</div>
+                              </div>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="bHeadingTwo">
+                                   <h4 class="panel-title">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#bAccordion" href="#bCollapseTwo" aria-expanded="false" aria-controls="bCollapseTwo">
+                                Collapsible Group Item #2
+                              </a>
+                            </h4>
+                        
+                              </div>
+                              <div id="bCollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="bHeadingTwo">
+                                  <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</div>
+                              </div>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="bHeadingThree">
+                                   <h4 class="panel-title">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#bCollapseThree" aria-expanded="false" aria-controls="bCollapseThree">
+                                Collapsible Group Item #3
+                              </a>
+                            </h4>
+                        
+                              </div>
+                              <div id="bCollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="bHeadingThree">
+                                  <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. </div>
+                              </div>
+                          </div>
+                        </div>
+<!--accordion end-->
+                  </div>
+               </div>
+           </div>
+       </div>
+       <!-- /.row -->
+       
+   </div>
+   <!-- /.container-fluid -->
+
 
